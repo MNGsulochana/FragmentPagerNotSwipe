@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sulochana.fragmentpagernotswipe.Main2Activity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.example.sulochana.fragmentpagernotswipe.CustomViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/viepgr">
+
+    </com.example.sulochana.fragmentpagernotswipe.CustomViewPager>
+
+    <github.chenupt.springindicator.SpringIndicator
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:siTextSize="18sp"
+        app:siIndicatorColors="@array/indicator_colors"
+        app:siTextColor="@color/colorPrimaryDark"
+        app:siSelectedTextColor="@android:color/white"
+        app:siIndicatorColor="@color/colorPrimary"
+        android:id="@+id/indicator1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp" >
+
+    </github.chenupt.springindicator.SpringIndicator>
+
+    </FrameLayout>
+
+</LinearLayout>
